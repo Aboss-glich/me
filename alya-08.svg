@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650">
+  <defs><linearGradient id="h" x2="0" y2="1"><stop stop-color="#f5dfee"/><stop offset="1" stop-color="#e2e5fc"/></linearGradient></defs><rect width="600" height="650" fill="url(#h)"/>
+  <circle cx="295" cy="296" r="181" fill="#fffaf1" opacity=".76"/><path d="M154 423h292l-28 91H181Z" fill="#b9d4c0"/><path d="M187 420q50-123 95 0 53-154 101 0" fill="none" stroke="#749c7c" stroke-width="11" stroke-linecap="round"/>
+  <g fill="#ed9abc"><circle cx="224" cy="372" r="16"/><circle cx="248" cy="354" r="16"/><circle cx="273" cy="372" r="16"/><circle cx="248" cy="398" r="16"/></g><circle cx="248" cy="375" r="10" fill="#ffe5a5"/>
+  <g fill="#c2ace7"><circle cx="372" cy="343" r="14"/><circle cx="394" cy="327" r="14"/><circle cx="416" cy="343" r="14"/><circle cx="394" cy="365" r="14"/></g><circle cx="394" cy="344" r="8" fill="#fff0bf"/>
+  <text x="300" y="590" text-anchor="middle" fill="#806b91" font-family="Georgia,serif" font-size="25">More memories to come</text>
+</svg>

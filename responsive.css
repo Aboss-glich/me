@@ -1,0 +1,223 @@
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+  .shared-music-player { left: .75rem; right: auto; top: 4.6rem; bottom: auto; }
+  .welcome-hero { grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .welcome-copy h1 { font-size: clamp(3rem, 8vw, 5rem); }
+  .birthday-art { min-height: 400px; }
+  .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 1.8rem 1.2rem; }
+  .special-grid { grid-template-columns: repeat(2, 1fr); }
+  .memory-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .game-memory-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 640px) {
+  body { font-size: 14px; }
+  .theme-picker { top: .55rem; right: .55rem; }
+  .theme-picker button { min-height: 2.05rem; padding: .34rem .58rem; font-size: .66rem; }
+  .site-main { padding: .8rem 1rem 6rem; }
+  .site-nav { padding: .55rem .65rem .55rem .85rem; }
+  .brand { font-size: 1.25rem; }
+  .nav-tools { gap: .3rem; }
+  .music-control input { display: none; }
+  .chapter-intro { margin: 3.2rem auto 2rem; }
+  .chapter-intro h1 { font-size: clamp(2.45rem, 11vw, 3.6rem); }
+  .welcome-hero { grid-template-columns: 1fr; min-height: auto; padding: 3.6rem 0 1rem; }
+  .welcome-copy { text-align: center; }
+  .welcome-copy > p { margin-inline: auto; }
+  .welcome-copy h1 { font-size: clamp(3rem, 13vw, 4.4rem); }
+  .birthday-art { min-height: 350px; margin-top: -1.2rem; }
+  .art-orbit { width: min(82vw, 350px); }
+  .cake-illustration { transform: scale(.83); }
+  .letter-paper { padding: 2.1rem 1.6rem; }
+  .letter-body { font-size: 1.28rem; }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem .85rem; }
+  .polaroid { padding: .5rem .5rem 1.9rem; }
+  .polaroid figcaption { font-size: 1.1rem; }
+  .special-grid { grid-template-columns: 1fr; gap: .9rem; }
+  .special-card { min-height: unset; padding: 1.3rem; }
+  .quote-panel { margin-top: 3rem; }
+  .cake-layout, .gift-layout { grid-template-columns: 1fr; gap: 1rem; padding-top: 1.7rem; }
+  .cake-stage { min-height: 300px; }
+  .interactive-cake { transform: scale(.82); }
+  .cake-copy, .gift-copy { text-align: center; }
+  .gift-stage { min-height: 330px; }
+  .gift-box { transform: scale(.86); }
+  .gift-stage.is-open .gift-box { transform: translateY(-120px) scale(.7); }
+  .lightbox { grid-template-columns: 2.5rem minmax(0,1fr) 2.5rem; gap: .3rem; padding: .5rem; }
+  .lightbox figure { width: calc(100vw - 7rem); }
+  .lightbox .icon-button { background: rgb(255 255 255 / 18%); color: white; border-color: rgb(255 255 255 / 30%); }
+  .chapter-footer { margin-top: 3.5rem; }
+  .chapter-footer .button { padding-inline: 1rem; }
+  .moon { top: 12%; right: 10%; transform: scale(.72) rotate(-20deg); }
+  .memory-world-intro { margin-top: 3rem; }
+  .memory-jump { top: .35rem; margin-bottom: 3.2rem; }
+  .memory-jump a { gap: .28rem; padding: .48rem .7rem; font-size: .69rem; }
+  .memory-section { margin-bottom: 3.5rem; padding: 1.2rem .85rem 1.5rem; border-radius: 1.35rem; }
+  .memory-section-heading { margin-bottom: 1.8rem; padding-inline: .35rem; }
+  .memory-section-heading h2 { font-size: clamp(1.95rem, 8.5vw, 2.8rem); }
+  .memory-gallery { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.35rem .7rem; }
+  .memory-photo { padding: .45rem .45rem 1.8rem; }
+  .memory-photo:nth-child(3n+2) { transform: rotate(2.4deg) translateY(8px); }
+  .memory-photo figcaption { font-size: 1rem; }
+  .memory-heart { top: .55rem; right: .55rem; font-size: 1.15rem; }
+  .game-memory-grid { grid-template-columns: 1fr; gap: .8rem; }
+  .game-memory summary { grid-template-columns: 112px minmax(0,1fr); align-items: stretch; }
+  .game-screen { min-height: 145px; }
+  .game-screen::before { width: 90px; }.game-screen::after { width: 120px; }
+  .game-card-copy { align-content: center; gap: .27rem; padding: .8rem; }
+  .game-card-copy strong { font-size: 1.18rem; }
+  .game-card-copy > span:not(.game-index) { font-size: .69rem; }
+  .game-index { font-size: .55rem; }
+  .game-note { padding: 0 .9rem 1rem; }
+  .squad-note { gap: .55rem; padding: .8rem .7rem; }
+  .squad-note p { font-size: .73rem; }
+  .group-scrapbook { grid-template-columns: 1fr; gap: 1.35rem; padding: 0 .5rem; }
+  .group-photo-card { min-height: 230px; }
+  .group-photo-card img, .group-photo-placeholder { height: 190px; }
+  .group-chat-note { margin: 0 .2rem; }
+  .friend-wishes { grid-template-columns: 1fr; gap: .7rem; }
+  .friend-wish { padding: .8rem; gap: .75rem; }
+  .anime-avatar { flex-basis: 54px; width: 54px; height: 54px; }
+  .avatar-hair { left: 10px; }.avatar-face { left: 14px; }
+  .avatar-blush { left: 15px; }
+  .wish-heart { top: .45rem; right: .55rem; }
+}
+@media (max-width: 380px) {
+  .brand { font-size: 1.08rem; }.brand-mark { width: 1.7rem; height: 1.7rem; }
+  .gallery-grid { gap: 1.1rem .65rem; }
+  .chapter-footer { font-size: .68rem; }
+  .chapter-footer .button { min-height: 2.6rem; font-size: .75rem; }
+  .memory-jump { gap: .1rem; padding: .35rem; }
+  .memory-jump a { padding-inline: .52rem; font-size: .64rem; }
+  .memory-gallery { gap: 1.1rem .55rem; }
+  .game-memory summary { grid-template-columns: 96px minmax(0,1fr); }
+}
+@media (max-width: 900px) {
+  .memory-hero { min-height: 390px; grid-template-columns: 1fr .8fr; padding-left: 1.5rem; }
+  .memory-hero-copy h1 { font-size: clamp(2.7rem,6.6vw,4.2rem); }
+  .memory-hero-art { min-height: 320px; }
+  .hero-photo { width: 110px; }
+  .hero-photo-two { width: 135px; }
+  .memory-player { right: 1rem; }
+  .memory-gallery { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+@media (max-width: 640px) {
+  .memory-hero { min-height: 0; grid-template-columns: 1fr; gap: .1rem; margin-top: 1.2rem; padding: 2rem 1.1rem .5rem; border-radius: 1.5rem; text-align: center; }
+  .memory-hero-copy h1 { max-width: 510px; margin-inline: auto; font-size: clamp(2.7rem,12vw,4rem); }
+  .memory-hero-copy p { margin-inline: auto; font-size: .88rem; }
+  .memory-hero-art { width: min(100%,360px); min-height: 260px; justify-self: center; }
+  .hero-orbit { width: 250px; }
+  .hero-photo { width: 88px; padding: .3rem .3rem 1rem; }
+  .hero-photo-one { top: 16%; left: 9%; }.hero-photo-two { top: 23%; left: 39%; width: 112px; }.hero-photo-three { right: 6%; bottom: 8%; }
+  .hero-butterfly { top: 3%; right: 15%; font-size: 1.6rem; }
+  .memory-player { right: .6rem; bottom: .6rem; grid-template-columns: 34px minmax(65px,1fr) auto; gap: .45rem; width: min(365px,calc(100vw - 1.2rem)); padding: .55rem .65rem; }
+  .player-orb { width: 34px; height: 34px; font-size: 1.05rem; }
+  .player-visualizer { display: none; }
+  .player-info strong { font-size: .68rem; }.player-info small { font-size: .53rem; }
+  .player-controls { gap: .08rem; }.player-button { width: 24px; height: 26px; }.player-play { width: 31px; height: 31px; }
+  .player-volume { grid-column: 2 / -1; margin-top: -.12rem; }
+  .memory-jump { flex-wrap: nowrap; width: 100%; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; }
+  .memory-jump::-webkit-scrollbar { display: none; }
+  .memory-jump a { flex: 0 0 auto; }
+  .instagram-profile { gap: .5rem; padding: .5rem; }.instagram-avatar { width: 36px; height: 36px; }.instagram-profile-copy { min-width: 70px; }
+  .instagram-profile-copy strong { font-size: .73rem; }.instagram-profile-copy small { font-size: .55rem; }
+  .social-button { min-height: 2.2rem; padding: .4rem .55rem; font-size: .62rem; }
+  .doodle-heart { font-size: 2.5rem; }.doodle-flower { font-size: 2rem; }
+  .game-memory-toggle { grid-template-columns: 96px minmax(0,1fr); align-items: stretch; }
+  .game-screen { min-height: 132px; }
+  .game-card-copy { padding: .7rem; }
+  .game-card-copy strong { font-size: 1.08rem; }
+  .game-card-copy > span:not(.game-index) { font-size: .65rem; }
+  .group-scrapbook { gap: 1.1rem; }
+  .chat-memory { font-size: .63rem; }
+  .friend-wish-toggle { gap: .7rem; padding: .8rem; }
+  .friend-hidden-message { padding-left: 4.7rem; font-size: 1.08rem; }
+  .timeline-item { grid-template-columns: 38px minmax(0,1fr); gap: .55rem; }
+  .memory-timeline::before { left: 18px; }
+  .timeline-dot { width: 38px; height: 38px; }
+  .timeline-card { grid-template-columns: 65px minmax(0,1fr); gap: .45rem .7rem; padding: .65rem; }
+  .timeline-card img,.timeline-placeholder { width: 65px; height: 70px; }
+  .timeline-card h3 { font-size: 1rem; }.timeline-card p { font-size: .65rem; }
+  .surprise-section { grid-template-columns: 1fr 100px; gap: .4rem; min-height: 220px; margin-bottom: 3.5rem; padding: 1.4rem 1rem; border-radius: 1.45rem; }
+  .surprise-copy h2 { font-size: 1.7rem; }.surprise-copy p { font-size: .72rem; }
+  .surprise-box { width: 100px; height: 110px; transform: scale(.8); }.surprise-box:hover { transform: scale(.8) translateY(-4px); }
+  .surprise-reveal { font-size: 1.25rem; padding: 1rem; }
+  .friendship-ending { margin-bottom: 1rem; padding: 3.2rem 1.1rem; border-radius: 1.55rem; }
+  .friendship-ending h2 { font-size: 2.5rem; }.friendship-ending p { font-size: 1.5rem; }
+  .ending-moon { top: 5%; right: 8%; font-size: 2.3rem; }
+}
+@media (max-width: 380px) {
+  .memory-hero-copy h1 { font-size: 2.55rem; }
+  .memory-player { grid-template-columns: 30px minmax(58px,1fr) auto; gap: .35rem; padding: .5rem; }
+  .player-controls { gap: 0; }.player-button { width: 22px; }.player-play { width: 29px; }
+  .instagram-profile { gap: .35rem; }.social-button { font-size: .57rem; }
+  .game-memory-toggle { grid-template-columns: 86px minmax(0,1fr); }
+  .game-screen { min-height: 125px; }
+  .game-card-copy strong { font-size: .98rem; }
+}
+@media (max-width: 900px) {
+  .instagram-profiles { grid-template-columns: 1fr; }
+  .time-capsule { width: 100%; }
+}
+@media (max-width: 640px) {
+  .shared-music-player { left: .6rem; right: auto; top: 4rem; bottom: auto; width: min(350px,calc(100vw - 1.2rem)); padding: .6rem .65rem; }
+  .shared-player-top { grid-template-columns: 32px minmax(0,1fr) auto; gap: .4rem; }
+  .shared-music-player .player-orb { width: 32px; }
+  .shared-player-track strong { font-size: .68rem; }
+  .shared-player-track small { font-size: .55rem; }
+  .shared-player-controls { gap: 0; }
+  .shared-music-player .player-button { width: 23px; height: 24px; }
+  .shared-music-player .player-play { width: 30px; height: 30px; }
+  .shared-player-options select { font-size: .68rem; }
+  .time-capsule { grid-template-columns: 82px minmax(0,1fr); gap: .85rem; margin-top: 2.7rem; padding: 1rem; border-radius: 1.25rem; }
+  .capsule-art { width: 82px; border-radius: .9rem; }
+  .capsule-art span { width: 52px; height: 42px; font-size: 1.5rem; }
+  .capsule-art i { top: 14%; right: 12%; }
+  .capsule-copy h2 { font-size: 1.55rem; }
+  .capsule-copy p { font-size: .75rem; }
+  .capsule-copy .button { min-height: 2.6rem; padding: .6rem .9rem; font-size: .7rem; }
+  .capsule-letter { padding: 1rem; font-size: 1.08rem; }
+  .instagram-profiles { gap: .55rem; }
+  .universe-sky { min-height: 330px; border-radius: 2rem; }
+  .universe-star { width: min(118px,29vw); min-height: 74px; padding: .45rem; border-radius: .8rem; }
+  .universe-star small { font-size: .56rem; }
+  .universe-star-1 { top: 7%; left: 3%; }.universe-star-2 { top: 7%; right: 3%; }.universe-star-3 { bottom: 7%; left: 4%; }.universe-star-4 { right: 4%; bottom: 7%; }
+  .universe-center { width: 76px; font-size: 1.1rem; }
+  .memory-dialog h3 { font-size: 1.5rem; }
+  .random-memory-display { grid-template-columns: 1fr; gap: .5rem; padding: .75rem; }
+  .random-memory-display.has-image { grid-template-columns: minmax(90px,34%) minmax(0,1fr); }
+  .random-memory-display img { height: 140px; }
+  .random-memory-copy { padding: .45rem; }
+  .random-memory-copy p { font-size: .76rem; }
+  .random-memory-actions .button { min-height: 2.7rem; padding: .6rem 1rem; font-size: .72rem; }
+  .friendship-quiz { padding: .85rem; }
+  .quiz-question legend { font-size: 1.1rem; }
+  .quiz-option { padding: .6rem; font-size: .75rem; }
+  .quiz-actions .button { min-height: 2.7rem; padding: .6rem .9rem; font-size: .72rem; }
+  .memory-book { padding: .65rem; }
+  .memory-book-spread,.memory-book-page { min-height: 255px; }
+  .memory-book-page { padding: 1rem; }
+  .memory-book-page h3 { margin-top: .8rem; font-size: 1.55rem; }
+  .memory-book-page p { font-size: .8rem; }
+  .memory-book-controls { font-size: .65rem; }
+  .final-page .final-page-content { min-height: calc(100svh - 1rem); padding-top: 3.5rem; }
+  .final-page .final-copy { font-size: .9rem; line-height: 1.8; }
+  .finale-actions { align-items: center; flex-direction: column; }
+  .finale-actions .button { width: min(100%,290px); min-height: 2.8rem; font-size: .75rem; }
+  .easter-egg { right: .35rem; width: 1.7rem; height: 1.7rem; font-size: .8rem; }
+  .easter-egg-1,.easter-egg-3 { left: .35rem; }
+  .easter-egg-counter { bottom: .5rem; left: 2.2rem; font-size: .55rem; }
+}
+@media (max-width: 380px) {
+  .shared-music-player { width: calc(100vw - .8rem); left: .4rem; right: auto; top: 3.8rem; bottom: auto; }
+  .shared-player-track strong { font-size: .62rem; }
+  .shared-player-track small { font-size: .5rem; }
+  .shared-music-player .player-button { width: 21px; }
+  .shared-music-player .player-play { width: 27px; }
+  .time-capsule { grid-template-columns: 70px minmax(0,1fr); gap: .65rem; }
+  .capsule-art { width: 70px; }
+  .capsule-copy h2 { font-size: 1.35rem; }
+  .universe-sky { min-height: 310px; }
+  .universe-star { width: 27vw; min-height: 69px; }
+  .universe-star small { font-size: .5rem; }
+  .random-memory-display.has-image { grid-template-columns: 90px minmax(0,1fr); }
+}

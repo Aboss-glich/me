@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650">
+  <defs><linearGradient id="f" x2="0" y2="1"><stop stop-color="#e8e0ff"/><stop offset="1" stop-color="#fff1e8"/></linearGradient></defs><rect width="600" height="650" fill="url(#f)"/>
+  <path d="M87 169h426v329H87z" fill="#fffaf5"/><path d="M87 169h426v55H87z" fill="#efc1d5"/><path d="M112 258h376v215H112z" fill="#f3e7d8"/>
+  <path d="M157 416q28-116 56 0m-7 0q31-148 63 0m-18 0q35-100 70 0" fill="none" stroke="#91ad8f" stroke-width="11" stroke-linecap="round"/>
+  <g fill="#d889a8"><circle cx="168" cy="385" r="16"/><circle cx="213" cy="361" r="16"/><circle cx="269" cy="400" r="16"/><circle cx="325" cy="372" r="16"/></g>
+  <path d="M346 390q36-66 72 0-36 57-72 0Z" fill="#f4cba3"/><path d="M366 389q16-24 32 0" fill="none" stroke="#a57778" stroke-width="5"/>
+  <text x="300" y="590" text-anchor="middle" fill="#806b91" font-family="Georgia,serif" font-size="25">A story worth keeping</text>
+</svg>

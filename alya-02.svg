@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650">
+  <defs><linearGradient id="b" x2="0" y2="1"><stop stop-color="#e4dcff"/><stop offset="1" stop-color="#fff0e8"/></linearGradient></defs><rect width="600" height="650" fill="url(#b)"/>
+  <circle cx="300" cy="276" r="162" fill="#fff9f3" opacity=".8"/><path d="M65 472Q300 385 535 472v130H65Z" fill="#f3c4d5"/>
+  <g fill="#e69bb8"><path d="M293 160c38-52 82 14 0 67-82-53-38-119 0-67Z"/><path d="M389 252c25-34 53 9 0 44-53-35-25-78 0-44Z"/><path d="M210 295c20-27 42 7 0 35-42-28-20-62 0-35Z"/></g>
+  <g fill="none" stroke="#91ae9a" stroke-width="8" stroke-linecap="round"><path d="M301 496V260"/><path d="M302 401q-71-52-102-20 41 47 102 37"/><path d="M301 350q63-62 98-33-36 59-98 52"/></g>
+  <path d="M270 525q30-43 60 0-30 45-60 0Z" fill="#fff2b9"/><text x="300" y="606" text-anchor="middle" fill="#806b91" font-family="Georgia,serif" font-size="26">A day to remember</text>
+</svg>

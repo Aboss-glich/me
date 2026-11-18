@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650">
+  <defs><linearGradient id="d" x2="0" y2="1"><stop stop-color="#dcd2f5"/><stop offset="1" stop-color="#ffe8ec"/></linearGradient></defs><rect width="600" height="650" fill="url(#d)"/>
+  <circle cx="310" cy="303" r="188" fill="#fff9f5" opacity=".78"/><path d="M89 476q88-80 176 0t176 0v118H89Z" fill="#d2c0e8"/>
+  <g fill="#f1aac4"><path d="M302 174c34-46 72 12 0 59-72-47-34-105 0-59Z"/><path d="M207 282c23-31 50 8 0 40-50-32-23-71 0-40Z"/><path d="M402 309c19-25 40 6 0 32-40-26-19-57 0-32Z"/></g>
+  <g stroke="#829e81" stroke-width="8" fill="none" stroke-linecap="round"><path d="M302 493V225"/><path d="M301 404q-62-49-91-22 35 47 91 39"/><path d="M302 361q68-57 98-24-37 52-98 45"/></g>
+  <g fill="#fff7d9"><circle cx="118" cy="193" r="9"/><circle cx="475" cy="189" r="8"/><circle cx="501" cy="389" r="10"/><circle cx="150" cy="360" r="7"/></g>
+  <text x="300" y="606" text-anchor="middle" fill="#806b91" font-family="Georgia,serif" font-size="25">Little things, big smiles</text>
+</svg>

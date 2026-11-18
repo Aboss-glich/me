@@ -1,0 +1,5 @@
+html { font-family: var(--font-body); color: var(--text-primary); }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; letter-spacing: -.035em; }
+.script { font-family: var(--font-script); font-weight: 600; }
+.eyebrow { color: var(--pink-500); font-size: .73rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; }
+.gradient-text { background: linear-gradient(110deg, #d86f9d, #9478c2 60%, #d7a85d); -webkit-background-clip: text; background-clip: text; color: transparent; }

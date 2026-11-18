@@ -1,0 +1,46 @@
+:root {
+  color-scheme: light;
+  --pink-50: #fff5f9;
+  --pink-100: #ffe5ef;
+  --pink-200: #ffc9de;
+  --pink-300: #ffa9cc;
+  --pink-500: #ec79a7;
+  --lavender-50: #f8f5ff;
+  --lavender-100: #f0e9ff;
+  --lavender-200: #e5d9ff;
+  --lavender-300: #d5c4ff;
+  --lavender-500: #a78bdb;
+  --cream: #fff9f1;
+  --white: #fff;
+  --gold: #e8c98c;
+  --text-primary: #48384d;
+  --text-secondary: #927c94;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Poppins", "Segoe UI", sans-serif;
+  --font-script: "Dancing Script", cursive;
+  --shadow-soft: 0 18px 55px rgb(111 76 115 / 12%);
+  --shadow-card: 0 14px 36px rgb(111 76 115 / 10%);
+  --radius-card: 1.5rem;
+  --ease-out: cubic-bezier(.2,.8,.2,1);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --pink-50: #241d2b;
+  --pink-100: #4a3042;
+  --pink-200: #68435d;
+  --pink-300: #b66b8f;
+  --pink-500: #f2a2c2;
+  --lavender-50: #2e2939;
+  --lavender-100: #403650;
+  --lavender-200: #55466a;
+  --lavender-300: #8069a1;
+  --lavender-500: #c2a8e8;
+  --cream: #2c2630;
+  --white: #332d38;
+  --gold: #e6cd96;
+  --text-primary: #fff8fb;
+  --text-secondary: #cbbfd0;
+  --shadow-soft: 0 18px 55px rgb(5 3 10 / 32%);
+  --shadow-card: 0 14px 36px rgb(5 3 10 / 26%);
+}

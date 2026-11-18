@@ -1,0 +1,16 @@
+@keyframes float { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-13px) rotate(2deg); } }
+@keyframes float-slow { 0%,100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(0,-20px,0); } }
+@keyframes twinkle { 0%,100% { opacity: .35; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.15); } }
+@keyframes drift { from { transform: translateX(-8px) rotate(-8deg); } to { transform: translateX(10px) rotate(8deg); } }
+@keyframes flicker { 0%,100% { transform: scale(.9); opacity: .8; } 45% { transform: scale(1.12); opacity: 1; } 70% { transform: scale(.95); } }
+@keyframes rise { to { transform: translateY(-120vh) translateX(24px) rotate(360deg); opacity: 0; } }
+@keyframes flap { 0%,100% { transform: rotateX(0); } 100% { transform: rotateX(175deg); } }
+@keyframes envelope-open { to { transform: translateY(-130px) rotate(-3deg); } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 0 0 rgb(239 127 174 / 0%); } 50% { box-shadow: 0 0 34px 8px rgb(239 127 174 / 30%); } }
+@keyframes confetti-fall { to { transform: translate3d(var(--drift), 105vh, 0) rotate(720deg); opacity: 0; } }
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s var(--ease-out); }
+.reveal.is-in-view { opacity: 1; transform: translateY(0); }
+.floaty { animation: float 5s ease-in-out infinite; }
+.orb { position: absolute; width: clamp(8rem, 20vw, 19rem); aspect-ratio: 1; border-radius: 50%; filter: blur(1px); opacity: .5; background: radial-gradient(circle at 35% 35%, rgb(255 255 255 / 90%), rgb(255 201 222 / 15%) 65%, transparent); animation: float-slow 9s ease-in-out infinite; }
+.particle { position: fixed; z-index: 4; width: 8px; height: 8px; border-radius: 2px; pointer-events: none; animation: confetti-fall 3.4s ease-in forwards; }
+@media (prefers-reduced-motion: reduce) { .orb, .floaty, .sparkle { animation: none; } }
